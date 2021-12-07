@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>PROCURANDO MÚSICAS</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+
+        <h1>PROCURANDO MÚSICAS</h1>
+
+        <div class="input">
+
+          <label>DIGITE O ARTISTA :  </label>
+          <input type="text" id="artist">
+
+          <label>DIGITE A MÚSICA :  </label>
+          <input type="text" id="song">
+
+          <button onclick="getMusic()">VAMOS CANTAR!</button>
+        
+        </div>
+            
+          <div id="renderResults"></div>
+
+        <script src="script.js"></script>
+
+  </body>
+
+</html>
